@@ -179,7 +179,6 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
 
     return {
       restrict: 'EAC',
-      replace: true,
       template: '<div></div>',
       scope: {
         config: '=',
